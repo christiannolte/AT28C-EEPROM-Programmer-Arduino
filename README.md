@@ -25,6 +25,10 @@ Flash a binary file to the EEPROM:
 2. This writes one byte at a time over the serial port. It is slow... If you have to flash huge binary files, you're probably better off with an off-the-shelf EEPROM programmer, but if you want to save $60, this will work for small files.
 3. The `-w` write command also supports a limit `-l x` limit parameter. This will limit the writes to the first x bytes. Might be useful if your EEPROM binary file is padded with zeroes.
 
+## Datasheet for AT28C256 device
+
+[AT28C256 Datasheet] (http://ww1.microchip.com/downloads/en/DeviceDoc/doc0006.pdf)
+
 ## My Circuit
 
 TBD
