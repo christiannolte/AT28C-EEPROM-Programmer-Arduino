@@ -28,15 +28,15 @@
 #define DELAY_TIME    2   // I don't know why this delay is required, but without it, writes are missed frequently
 
 // Control pins
-#define CHIP_ENABLE   7
-#define OUTPUT_ENABLE 8
-#define WRITE_ENABLE  9
+#define CHIP_ENABLE   15
+#define OUTPUT_ENABLE 7
+#define WRITE_ENABLE  4
 
-// I/O pins      lsb                         msb
-const int I[] = {46, 47, 48, 49, 50, 51, 52, 53};
+// I/O pins      lsb                           msb
+const int I[] = {A9, A10, A11, 20, 19, 18, 17, 16};
 
-// Address pins  lsb                                                     msb
-const int A[] = {26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40};
+// Address pins  lsb                                                msb
+const int A[] = {A8, 8, A7, A6, A5, A4, A3, A2, 2, 1, 14, 0, A1, 3, A0};
 
 // Input buffers
 char readAddr[5];
