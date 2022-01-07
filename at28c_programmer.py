@@ -37,8 +37,6 @@ def main():
 
     if (args.offset):
         addr = args.offset[0]
-    else:
-        args.offset[0]=0
 
     if args.read:
         print("Reading EEPROM")
