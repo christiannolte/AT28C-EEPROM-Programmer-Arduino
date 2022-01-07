@@ -4,7 +4,7 @@
  
  04/17/2016 - original release
  06/03/2021 - expanded serial port interface
-
+ 01/07/2022 - Adapt to my MEGA shield pinout
  Serial interface supports two commands: read and write
  
  Read: Reads a single byte at the 16-bit address.
